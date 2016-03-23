@@ -78,8 +78,8 @@ if (!defined('ABSPATH')) {
     define('ABSPATH', $webroot_dir . '/wp/');
 }
 
-defineIfUndefined('OPTION_BLOGNAME', 'Yet an other Name');
-define('OPTION_BLOGNAME', 'Yet an other Name');
+defineIfUndefined('OPTION_BLOGNAME', 'Schwarzes Brett');
+defineIfUndefined('OPTION_BLOGDESCRIPTION', 'der WBGO');
 
 /**
  * Configuration overwritten mu-plugins/override-options.php
